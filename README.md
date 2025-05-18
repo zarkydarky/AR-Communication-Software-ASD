@@ -67,7 +67,7 @@ This project is intended for **academic purposes only**.
 If you wish to reference, use, or build upon this work, you must first contact the contributors for permission.
 
 **Contact Information:**
-- Jean A. Miranda Vargas: [jmiranda166@email.uagm.ed](mailto:jmirdan166@email.uagm.edu)  
+- Jean A. Miranda Vargas: [jmiranda166@email.uagm.edu](mailto:jmirdan166@email.uagm.edu)  
 - José L. Laboy Steidel: [jlaboy39@email.uagm.edu](mailto:jlaboy39@email.uagm.edu)  
 
 ---
