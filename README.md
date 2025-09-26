@@ -48,11 +48,6 @@ The first phase focused on **research, conceptual design, and planning**. Key de
 ### **Capstone 2: Development & Implementation (In Progress)**
 **Current Status:** Early prototype development using Unity 3D for Meta Quest 3S
 
-#### 🎮 Latest Release: v1.0-prototype
-- **Release Type:** Unity Project Folder
-- **Contents:** Complete Unity project structure including Assets, Packages, and ProjectSettings
-- **Status:** Very early prototype - basic framework implementation
-- **Note:** This release represents the foundational development structure and is not yet a functional application
 
 #### 🔨 Active Development Focus:
 - Core AR interaction systems
@@ -117,7 +112,7 @@ If you wish to reference, use, or build upon this work, you must first contact t
 ## 📬 Contact
 For inquiries, collaboration opportunities, or technical discussions, feel free to reach out via the emails above.
 
-**Note for Developers:** This project is actively being developed. The current release contains only the Unity project structure and represents very early prototype work. We welcome feedback and suggestions from the development community.
+**Note for Developers:** This project is actively being developed. The current release contains the Unity project structure and the test build APK, it represents very early prototype work. We welcome feedback and suggestions from the development community.
 ---
 ## 🙏 Acknowledgments
 We would like to express our gratitude to:
@@ -128,4 +123,4 @@ We would like to express our gratitude to:
 - **Fellow Engineering Students** for their constructive critiques and innovative suggestions that continue to enhance this project.
 
 ---
-*Last Updated: August 2025*
+*Last Updated: September 2025*
