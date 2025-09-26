@@ -2,7 +2,7 @@
 **A Computer Engineering Capstone Project**
 ---
 ## 📖 Overview
-Children with autism spectrum disorder (ASD) often face challenges in verbal communication, making it difficult for them to express their emotions and needs. This project, developed as part of a **Computer Engineering Capstone**, explores the creation of an **Augmented Reality (AR) communication software** tailored for children with ASD.
+Children with autism spectrum disorder (ASD), especially those who are non-verbal or minimally verbal, often face significant barriers to expressing emotions, needs, and intentions. This Computer Engineering Capstone project develops an **Augmented Reality (AR) communication software** that allows these children to learn, practice, and generalize communication skills in a safe, engaging, and customizable environment.
 
 ### Key Features:
 - **Interactive and Customizable Environments:** Support individual needs with tailored content.
