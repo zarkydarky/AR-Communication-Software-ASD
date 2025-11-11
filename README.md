@@ -49,7 +49,7 @@ AR-Communication-Software-ASD/
 ├── docs/                       # Documentation and reports
 │   ├── Capstone I Report.pdf   # Official report for Capstone 1
 │   ├── Capstone-Poster.png     # Capstone poster
-├── AR-App-Builds/              # Contains the latest Test Build APK
+│   ├── Capstone II - Midterm Report     # Capstone II Midterm Report
 ```
 
 ---
