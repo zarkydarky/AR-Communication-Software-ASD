@@ -54,18 +54,18 @@ AR-Communication-Software-ASD/
 ├── docs/                              # Documentation
 │   ├── Capstone I Poster.png          # Poster from Capstone I
 │   ├── Capstone I Report.pdf          # The final report of Capstone I
-│   └── Capstone II - Final Report     # The final report of Capstone II
-│   └── Capstone II - Midterm Report   # The midterm report of Capstone II
+│   ├── Capstone II - Final Report.pdf # The final report of Capstone II
+│   ├── Capstone II - Midterm Report   # The midterm report of Capstone II
 │   └── Capstone II - Poster           # The poster from Capstone II
-├── images/                            # Application screenshots
-│   ├── app-dashboard.jpg              # AR app main dashboard
-│   ├── activities/                    # Activity screenshots
-│   └── web-app/                       # Web application screenshots
-└── builds/                            # Application builds
-    └── AR-Communication-ASD.apk       # Current release build
+└── images/                            # Application screenshots
+    ├── app-dashboard.jpg              # AR app main dashboard
+    ├── activities/                    # Activity screenshots
+    └── web-app/                       # Web application screenshots
 ```
 
-**Note:** The complete Unity project files and test builds are available in the [Releases](../../releases) section.
+**Note:** The complete Unity project files, APK builds, and test builds are available in the [Releases](../../releases) section due to file size limitations.
+
+**Screenshot Note:** Some application screenshots in the `images/activities/` directory display a black background instead of passthrough. This allows viewers to clearly see the application interface, UI elements, and AR objects without the visual distraction of the real-world environment. In actual use on the Meta Quest 3S headset, the application overlays these elements onto the user's physical surroundings through passthrough.
 
 ---
 
