@@ -52,9 +52,11 @@ This project delivers a complete Augmented Reality (AR) communication software s
 AR-Communication-Software-ASD/
 ├── README.md                          # Project overview
 ├── docs/                              # Documentation
-│   ├── Capstone I Report.pdf          # Initial research phase
-│   ├── Capstone II - Final Report.pdf # Complete project documentation
-│   └── Capstone II - Poster.png       # Project poster
+│   ├── Capstone I Poster.png          # Poster from Capstone I
+│   ├── Capstone I Report.pdf          # The final report of Capstone I
+│   └── Capstone II - Final Report     # The final report of Capstone II
+│   └── Capstone II - Midterm Report   # The midterm report of Capstone II
+│   └── Capstone II - Poster           # The poster from Capstone II
 ├── images/                            # Application screenshots
 │   ├── app-dashboard.png              # AR app main dashboard
 │   ├── activities/                    # Activity screenshots
