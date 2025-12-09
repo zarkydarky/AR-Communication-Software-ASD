@@ -8,7 +8,7 @@ A Computer Engineering Capstone Project — **Completed December 2025**
 
 This project delivers a complete Augmented Reality (AR) communication software system designed for children with Autism Spectrum Disorder (ASD), particularly those who are non-verbal or minimally verbal. The solution combines a standalone AR application for Meta Quest 3S headsets with a companion web application for clinical data analysis.
 
-![AR Application Dashboard](images/app-dashboard.png)
+![AR Application Dashboard](images/app-dashboard.jpg)
 
 **Core Components:**
 
@@ -58,7 +58,7 @@ AR-Communication-Software-ASD/
 │   └── Capstone II - Midterm Report   # The midterm report of Capstone II
 │   └── Capstone II - Poster           # The poster from Capstone II
 ├── images/                            # Application screenshots
-│   ├── app-dashboard.png              # AR app main dashboard
+│   ├── app-dashboard.jpg              # AR app main dashboard
 │   ├── activities/                    # Activity screenshots
 │   └── web-app/                       # Web application screenshots
 └── builds/                            # Application builds
