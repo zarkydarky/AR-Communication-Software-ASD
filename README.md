@@ -1,151 +1,138 @@
 # 🧩 AR Communication Software for Children with Autism
 
-A Computer Engineering Capstone Project
+A Computer Engineering Capstone Project — **Completed December 2025**
 
 ---
 
 ## 📖 Overview
 
-Children with autism spectrum disorder (ASD), especially those who are non-verbal or minimally verbal, often face significant barriers to expressing emotions, needs, and intentions. This Computer Engineering Capstone project develops an Augmented Reality (AR) communication software that allows these children to learn, practice, and generalize communication skills in a safe, engaging, and customizable environment.
+This project delivers a complete Augmented Reality (AR) communication software system designed for children with Autism Spectrum Disorder (ASD), particularly those who are non-verbal or minimally verbal. The solution combines a standalone AR application for Meta Quest 3S headsets with a companion web application for clinical data analysis.
 
-**Key Features:**
+![AR Application Dashboard](images/app-dashboard.png)
 
-- **Interactive and Customizable Environments:** Support individual needs with tailored content.
-- **Visual Supports and Contextual Clues:** Enhance communication pathways.
-- **Multi-Sensory AR Experiences:** Foster understanding and engagement.
-- **Data Analytics & Progress Tracking:** Session recording and analysis for caregivers and professionals.
-- **Companion Web Application:** Web-based dashboard for data visualization and progress monitoring.
+**Core Components:**
 
-The development follows an iterative prototyping approach, incorporating feedback from professionals and users to refine the application.
+- **Standalone AR Application:** Three therapeutic activities (Object Identification, Sentence Builder, Emotion Explorer) with full data logging
+- **Companion Web Application:** Data visualization dashboard for therapists and caregivers
+- **Offline Database System:** SQLite database with JSON export functionality
+- **Clinical Analytics:** Progress tracking and behavioral assessment tools
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-- Develop a fully functional standalone AR application for children with ASD using Meta Quest 3S headsets. (Status: Prototype Complete)
-- Provide comprehensive tools for caregivers to customize content and track progress.
-- Create a companion web application for data analysis and session monitoring.
-- Implement modern software engineering practices to deliver a production-ready solution.
+✅ Develop a functional standalone AR application for Meta Quest 3S headsets  
+✅ Create three distinct therapeutic/educational activities  
+✅ Implement comprehensive session data tracking and storage  
+✅ Build a companion web application for clinical data visualization  
+✅ Enable secure data export and analysis workflow  
+
+**Status:** All objectives successfully completed (December 2025)
 
 ---
 
 ## 🔧 Technology Stack
 
-- **AR Platform:** Meta Quest 3S headsets
-- **Development Environment:** Unity 3D (AR App)
-- **Companion Platform:** Web application (Current Focus)
-- **Target Deployment:** Standalone VR/AR application
-- **Build System:** Unity Build Pipeline
-- **Version Control:** Git with GitHub
-- **Testing Framework:** Meta Quest development tools and Unity Test Runner
+**AR Application:**
+- Platform: Meta Quest 3S
+- Engine: Unity 3D
+- Language: C#
+- Database: SQLite (SQLite4Unity3D plugin)
+- Build: Standalone APK
+
+**Web Application:**
+- Stack: XAMPP (Apache, MariaDB, PHP)
+- Database: MySQL
+- Format: JSON data import/export
 
 ---
 
 ## 📂 Repository Structure
-
 ```
 AR-Communication-Software-ASD/
-├── README.md                   # Project overview and description
-├── docs/                       # Documentation and reports
-│   ├── Capstone I Report.pdf   # Official report for Capstone 1
-│   ├── Capstone-Poster.png     # Capstone poster
-│   ├── Capstone II - Midterm Report     # Capstone II Midterm Report
+├── README.md                          # Project overview
+├── docs/                              # Documentation
+│   ├── Capstone I Report.pdf          # Initial research phase
+│   ├── Capstone II - Final Report.pdf # Complete project documentation
+│   └── Capstone II - Poster.png       # Project poster
+├── images/                            # Application screenshots
+│   ├── app-dashboard.png              # AR app main dashboard
+│   ├── activities/                    # Activity screenshots
+│   └── web-app/                       # Web application screenshots
+└── builds/                            # Application builds
+    └── AR-Communication-ASD.apk       # Current release build
 ```
 
----
-
-## 🚀 Current Progress
-
-**Capstone 2: Development & Implementation (In Progress)**
-
-**Current Status (November 2025):** The standalone Augmented Reality (AR) application prototype for Meta Quest 3S is 100% complete (v1.07). The project focus has now shifted entirely to the development and implementation of the Companion Web Application.
+**Note:** The complete Unity project files and test builds are available in the [Releases](../../releases) section.
 
 ---
 
-## 🌟 AR Prototype Key Achievements (v1.07):
+## 🌟 Key Features
 
-The AR application now includes all planned core functionality, menus, and data systems:
+### AR Application (Current Version)
 
-- **Implemented Activity Suite (100%):** All three therapeutic/educational modules are fully functional and integrated with the database:
-  - **Object Identification:** Focuses on vocabulary and basic object recognition.
-  - **Sentence Builder:** Requires the child to select the correct AR-rendered object to logically complete an incomplete sentence.
-  - **Emotion Explorer:** An assessment tool requiring the child to select the appropriate emotion (Happy, Sad, Neutral, or Mad) based on a presented scenario.
-- **Complete Data Management:** Full implementation of the secure, offline SQLite database, logging all session and response data correctly.
-- **Data Export Finalized:** The 'Export Data' function is operational. It generates a comprehensive JSON file containing all relevant session data, ready for transfer and import into the Companion Web Application.
-- **Full UI/UX Implementation:** All in-headset dashboard and activity menus are complete, including a Help / About menu.
+**Therapeutic Activities:**
+- **Object Identification:** Vocabulary building and object recognition
+- **Sentence Builder:** Grammar comprehension and sentence completion
+- **Emotion Explorer:** Emotional recognition assessment tool
 
----
+**User Interface:**
+- Account management (sign-up/login)
+- Customizable difficulty levels
+- Progress tracking and milestones
+- Settings and audio controls
+- Data export functionality
 
-## 🔨 Active Development Focus:
+**Data Management:**
+- Secure offline SQLite database
+- Session metadata logging
+- Individual response tracking
+- JSON export for clinical analysis
 
-- **Companion Web Application Development (Primary Focus)**
-- **Secure data import and visualization architecture (JSON parsing)**
-- **Application refinement and final performance optimization of the AR prototype**
+### Companion Web Application
 
-**Target Completion:** December 2025
-
----
-
-## 🎯 Planned Features
-
-### AR Application Status (Completed)
-
-- Immersive Communication Tools: Symbol-based communication in 3D AR environments
-- Adaptive Learning System: Personalized content based on individual progress
-- Session Recording: Comprehensive data collection for analysis and progress tracking
-- Offline Functionality: Full standalone operation without internet dependency
-
-### Companion Web Application (Active Focus)
-
-These features are the current priority for the final project delivery:
-
-- **Data Export/Import:** Secure transfer of session data via exported JSON files from the Meta Quest 3S device.
-- **Progress Analytics Dashboard:** Visual representation of child's communication development using charts and graphs.
-- **Caregiver Tools:** Customization options for communication symbols and activity configuration.
-- **Professional Reports:** Detailed, exportable analytics for healthcare professionals and therapists.
-- **Multi-User Support:** Management of multiple children's profiles and progress.
+**Features:**
+- Secure clinician authentication
+- JSON data import and parsing
+- Visual progress analytics
+- Patient profile management
+- Session history and performance charts
 
 ---
 
-## 🔮 Future Enhancements
+## 🚀 Implementation Highlights
 
-- **Advanced AI Integration:** Personalized learning algorithms based on usage patterns
-- **Multi-Language Support:** Expanded communication options for diverse populations
-- **Cloud Synchronization:** Real-time data sync across multiple devices
-- **Extended Reality Features:** Mixed reality capabilities for enhanced environmental interaction
+**Database Schema:**
+- `ChildAccount` - User profile data
+- `ActivitySession` - Session metadata
+- `ActivityResponse` - Detailed response logs
+- `ActivityConfigPreset` - Difficulty configurations
+- `ProgressMilestone` - Achievement tracking
 
----
-
-## 🛠️ Development Environment
-
-- **Primary IDE:** Unity 3D (Latest LTS)
-- **Target Platform:** Meta Quest 3S
-- **Build System:** Unity Build Pipeline
-- **Version Control:** Git with GitHub
-- **Testing Framework:** Meta Quest development tools and Unity Test Runner
-
----
-
-## 👥 Contributors
-
-This project is collaboratively developed by:
-
-- **Jean A. Miranda Vargas** — Computer Engineering Undergraduate
-- **José L. Laboy Steidel** — Computer Engineering Undergraduate
+**Clinical Workflow:**
+1. Child completes activities on Meta Quest 3S
+2. Session data logged to local database
+3. Clinician exports JSON file from headset
+4. Data imported to web application
+5. Progress analyzed via dashboard visualizations
 
 ---
 
 ## 📊 Project Timeline
 
-- **Phase 1 (Completed):** Research and Design Documentation
+- **Phase 1 (Spring 2025):** Research and Design Documentation
 - **Phase 2 (August - December 2025):** Full Development and Implementation
+  - September 2025: Core AR framework
+  - October 2025: Activities and database implementation
+  - November 2025: Web application development
+  - December 2025: Project completion and final delivery
 
-**Milestones:**
-- **Milestone 1 (September 2025):** Core AR framework completion
-- **Milestone 2 (October 2025):** Communication interface and data logging implementation (Complete)
-- **Milestone 3 (November 2025):** Companion web application development (In Progress)
+---
 
-**Final Delivery (December 2025):** Fully functional application with documentation
+## 👥 Contributors
+
+- **Jean A. Miranda Vargas** — Computer Engineering Undergraduate
+- **José L. Laboy Steidel** — Computer Engineering Undergraduate
 
 ---
 
@@ -159,30 +146,29 @@ This project is intended for academic purposes only.
 
 ## 📬 Contact
 
-For inquiries, collaboration opportunities, or technical discussions, feel free to reach out via the emails below:
+For inquiries, collaboration opportunities, or technical discussions:
 
 - Jean A. Miranda Vargas: jmiranda166@email.uagm.edu
 - José L. Laboy Steidel: jlaboy39@email.uagm.edu
 
 ---
 
-## Note for Developers
-
-This project is actively being developed. The current release contains the final AR Prototype build (Test Build APK). We welcome feedback and suggestions from the development community, especially regarding the Companion Web Application.
-
----
-
 ## 🙏 Acknowledgments
 
-We would like to express our gratitude to:
+We express our gratitude to:
 
-- **Our Professor,** Dr. Alcides Alvear Suárez (PhD), for their guidance, support, and mentorship throughout the project development.
-- **Meta Developer Community** for comprehensive documentation and development resources for Quest 3S.
-- **Unity Technologies** for providing robust AR/VR development tools and educational resources.
-- **Capstone Peers** for their insights, technical feedback, and collaborative support during development phases.
-- **Fellow Engineering Students** for their constructive critiques and innovative suggestions that continue to enhance this project.
+- **Dr. Alcides Alvear Suárez (PhD)** — Our capstone advisor for guidance and mentorship
+- **Meta Developer Community** — For comprehensive Quest 3S documentation and resources
+- **Unity Technologies** — For robust AR/VR development tools
+- **Capstone Peers and Engineering Students** — For feedback and collaborative support
 
 ---
 
-**Last Updated:** November 2025
+## ⚠️ Disclaimer
 
+This project utilized AI assistance tools during various stages of development. All AI-generated content was reviewed, validated, and integrated by the project contributors to ensure accuracy and alignment with project objectives.
+
+---
+
+**Project Status:** ✅ Complete  
+**Last Updated:** December 2025
